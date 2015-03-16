@@ -1,0 +1,21 @@
+{
+  "name": "goodspeed-protocol",
+  "version": "0.1.0",
+  "description": "For communicating with goodfet / facedancer devices from Travis Goodspeed",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Jacob Rosenthal",
+  "license": "MIT",
+  "dependencies": {
+    "when": "^3.7.2"
+  },
+  "devDependencies": {
+    "buffer-equal": "0.0.1",
+    "chai": "^2.1.1",
+    "event-stream": "^3.3.0",
+    "mocha": "^2.2.1",
+    "serialport": "^1.6.1"
+  }
+}
